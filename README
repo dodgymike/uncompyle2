@@ -67,7 +67,7 @@ Creating RPMS:
 
   python setup.py bdist_rpm
 
-  If you need to force the python interpreter to eg. pyton2:
+  If you need to force the python interpreter to eg. python2:
      python2 setup.py bdist_rpm --python=python2
 
 
@@ -81,7 +81,7 @@ Installation from the source distribution:
    To install to another prefix (eg. /usr/local)
      python setup.py install --prefix=/usr/local
 
-  If you need to force the python interpreter to eg. pyton2:
+  If you need to force the python interpreter to eg. python2:
      python2 setup.py install
 
   For more information on 'Installing Python Modules' please refer to
